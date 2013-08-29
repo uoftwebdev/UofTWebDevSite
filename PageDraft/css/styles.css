@@ -1,0 +1,40 @@
+.logo {
+	position: fixed;
+	bottom: 50%;
+	width: 35%;
+	text-align: center;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	*zoom:1; /* hasLayout ie7 trigger */
+	vertical-align: top;
+}
+
+.navbar-inner {
+	text-align:center;
+	background: #ffffff;
+	border-color: #0072A6;
+}
+
+.navbar {
+	position:fixed;
+	bottom: 50%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+	background-color: #EFF5FC;
+	color: #FF9999;
+}
+
+.row {
+	position:fixed;
+	bottom: 18%;
+	left: 38%;
+}
