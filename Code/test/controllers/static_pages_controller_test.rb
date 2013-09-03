@@ -11,13 +11,13 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get resource" do
-    get :resource
+  test "should get contact" do
+    get :contact
     assert_response :success
   end
 
-  test "should get contact" do
-    get :contact
+  test "should get resources" do
+    get :resources
     assert_response :success
   end
 
