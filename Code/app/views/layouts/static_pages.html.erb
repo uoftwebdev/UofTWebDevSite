@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%= render :file => "layouts/head" %>		
+		<%= stylesheet_link_tag "static_pages", media: "all", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "static_pages", "data-turbolinks-track" => true %>
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<%= render :file => "nav_bar"%>
+		</div>
+		<div class="container page_content">
+			<%= yield %>
+		</div>		
+	</body>
+</html>
