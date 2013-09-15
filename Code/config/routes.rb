@@ -1,5 +1,6 @@
 Code::Application.routes.draw do
   get "home" => "static_pages#home"
+  get "calendar" => "static_pages#calendar"
   get "about" => "static_pages#about"
   get "contact" => "static_pages#contact"
   get "resources" => "static_pages#resources"
