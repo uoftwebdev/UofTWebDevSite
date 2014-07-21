@@ -6,6 +6,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+#need to change to pg for heroku push
+
+gem 'rails_12factor', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
